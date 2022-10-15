@@ -1,0 +1,18 @@
+import time
+number = int(input("plz put a number"))
+number2 = int(input("plz put second number"))
+print(number+number2)
+print("+")
+time.sleep(3)
+if number <= number2:
+    print(number2-number)
+    print("-")
+else:
+    print(number-number2)
+    print("-")
+time.sleep(3)
+print(number*number2)
+print("x")
+time.sleep(3)
+print(number%number2)
+print("%")
